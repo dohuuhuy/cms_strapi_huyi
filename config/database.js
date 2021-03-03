@@ -11,7 +11,10 @@ module.exports = ({ env }) => ({
         username: "",
         password: "",
       },
-      options: {},
+      options: {
+        authenticationDatabase: "strapi-test",
+        ssl: false,
+      },
     },
   },
 });
