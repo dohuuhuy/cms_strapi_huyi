@@ -5,8 +5,8 @@ module.exports = ({ env }) => ({
       connector: "mongoose",
       settings: {
         client: "mongo",
-        host: "103.125.170.20",
-        port: 10184,
+        host: "localhost",
+        port: 27017,
         database: "personal_website",
         username: "",
         password: "",
